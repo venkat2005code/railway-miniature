@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Deep Vintage Burgundy Gradient -->
+    <linearGradient id="burgundy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a0820"/>
+      <stop offset="100%" stop-color="#34020f"/>
+    </linearGradient>
+    <!-- Antique Atelier Gold Gradient -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe29d"/>
+      <stop offset="45%" stop-color="#e8bf72"/>
+      <stop offset="100%" stop-color="#c69544"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Atelier Shield -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#burgundy)" stroke="url(#gold)" stroke-width="1.6"/>
+  
+  <!-- Billowing Steam Puffs -->
+  <path d="M23,17 Q26,11 32,13 Q38,15 42,11 Q40,18 34,17 Q28,16 23,17 Z" fill="url(#gold)" opacity="0.95"/>
+  <path d="M27,12 Q32,7 39,9 Q44,11 48,7 Q45,13 40,12 Q34,11 27,12 Z" fill="url(#gold)" opacity="0.8"/>
+
+  <!-- Locomotive Cab -->
+  <path d="M42,26 L52.5,26 Q54,26 54,28 L52.5,43 L42,43 Z" fill="url(#gold)"/>
+  <!-- Cab Roof Overhang -->
+  <path d="M40,25 L55,25 Q55.5,25 55.5,26.5 L41,26.5 Z" fill="url(#gold)"/>
+  <!-- Cab Window Cutout -->
+  <rect x="44.5" y="29.5" width="6.5" height="6.5" rx="1.2" fill="url(#burgundy)"/>
+
+  <!-- Boiler & Smokebox -->
+  <path d="M18,31 Q14,31 14,35.5 L14,43 L42,43 L42,31 Z" fill="url(#gold)"/>
+  <!-- Flared Smokestack -->
+  <path d="M19.5,31 L20,21.5 L24.5,21.5 L25,31 Z" fill="url(#gold)"/>
+  <ellipse cx="22.25" cy="21.5" rx="3" ry="0.9" fill="url(#gold)"/>
+  <!-- Sand Dome -->
+  <path d="M29,31 A2.8,2.8 0 0,1 34.6,31 Z" fill="url(#gold)"/>
+  <!-- Steam Dome -->
+  <path d="M37,31 A2.2,2.2 0 0,1 41.4,31 Z" fill="url(#gold)"/>
+  
+  <!-- Cowcatcher / Pilot -->
+  <polygon points="9,45 15,38 15,45" fill="url(#gold)"/>
+
+  <!-- Underframe Chassis -->
+  <rect x="12" y="43" width="41" height="2" rx="0.5" fill="url(#gold)"/>
+
+  <!-- Front Pilot Wheels -->
+  <circle cx="18" cy="46.5" r="3.2" fill="url(#gold)"/>
+  <circle cx="18" cy="46.5" r="1.3" fill="url(#burgundy)"/>
+  
+  <circle cx="25.5" cy="46.5" r="3.2" fill="url(#gold)"/>
+  <circle cx="25.5" cy="46.5" r="1.3" fill="url(#burgundy)"/>
+
+  <!-- Large Driving Wheels -->
+  <circle cx="35" cy="46" r="5.2" fill="url(#gold)"/>
+  <circle cx="35" cy="46" r="3.2" fill="url(#burgundy)"/>
+  <circle cx="35" cy="46" r="1.2" fill="url(#gold)"/>
+
+  <circle cx="45.5" cy="46" r="5.2" fill="url(#gold)"/>
+  <circle cx="45.5" cy="46" r="3.2" fill="url(#burgundy)"/>
+  <circle cx="45.5" cy="46" r="1.2" fill="url(#gold)"/>
+
+  <!-- Connecting Drive Rod -->
+  <rect x="35" y="45.2" width="10.5" height="1.8" rx="0.9" fill="url(#gold)"/>
+  
+  <!-- Railway Track -->
+  <line x1="8" y1="51.5" x2="56" y2="51.5" stroke="url(#gold)" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Railway Ties -->
+  <line x1="12" y1="52.5" x2="12" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="18" y1="52.5" x2="18" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="24" y1="52.5" x2="24" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="30" y1="52.5" x2="30" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="36" y1="52.5" x2="36" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="42" y1="52.5" x2="42" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="48" y1="52.5" x2="48" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="53" y1="52.5" x2="53" y2="55" stroke="url(#gold)" stroke-width="1.5"/>
+</svg>
